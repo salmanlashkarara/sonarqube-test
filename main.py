@@ -10,4 +10,10 @@ def func(a):
 
 print("Func: ", func(3))
 
-TestCase().assertEqual(func(3), 31.5, "Expected value and actual value are not equal")
+TestCase().assertEqual(func(3), 2.5,
+                       "Expected value {actual_value} and actual value {expected_value} are not equal".format(
+                           actual_value=func(3), expected_value=1.5))
+
+TestCase().assertEqual(func(2), 4,
+                       "Expected value {actual_value} and actual value {expected_value} are not equal".format(
+                           actual_value=func(2), expected_value=4))
