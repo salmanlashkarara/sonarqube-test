@@ -18,7 +18,7 @@ def test_sub():
 
 
 def test_div():
-    assert sub(6, 2) == 3
+    assert div(6, 2) == 3
 
 
 def test_multitude():
