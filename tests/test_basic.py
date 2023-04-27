@@ -15,3 +15,15 @@ def test_sum():
 
 def test_sub():
     assert sub(3, 2) == 1
+
+
+def test_div():
+    assert sub(6, 2) == 3
+
+
+def test_multitude():
+    assert multitude(6, 2) == 12
+
+
+def test_power():
+    assert multitude(6, 2) == 36
