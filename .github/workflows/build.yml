@@ -21,7 +21,7 @@ jobs:
       - name: Install tox and any other packages
         run: pip install -r requirements.txt
       - name: Run tox
-        run: tox -e py
+        run: python -m tox -e py
       - name: Show coverage
         run: python -m coverage report
       - name: SonarQube Scan
