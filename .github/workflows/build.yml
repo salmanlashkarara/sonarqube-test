@@ -22,6 +22,8 @@ jobs:
         run: pip install tox
       - name: Run tox
         run: tox -e py
+      - name: Show coverage
+        run: coverage report
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@master
         env:
