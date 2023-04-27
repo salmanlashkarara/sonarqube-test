@@ -26,4 +26,4 @@ def test_multitude():
 
 
 def test_power():
-    assert multitude(6, 2) == 36
+    assert power(6, 2) == 36
