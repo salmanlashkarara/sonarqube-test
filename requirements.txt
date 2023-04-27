@@ -1,4 +1,4 @@
 pytest==7.3.1
 coverage
 pytest-cov
-tox==4.5.1
+tox
