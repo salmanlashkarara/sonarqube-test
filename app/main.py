@@ -24,5 +24,3 @@ def multitude(a, b):
 def power(a, b):
     return a ** b
 
-
-print("func(3)= ", func(3))
