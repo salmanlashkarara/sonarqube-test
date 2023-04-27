@@ -5,7 +5,6 @@ on:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
-
 jobs:
   sonarqube:
     name: SonarQube
@@ -19,11 +18,9 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Install tox and any other packages
-        run: pip install -r requirements.txt
+        run: pip install tox
       - name: Run tox
-        run: python -m tox -e py
-      - name: Show coverage
-        run: python -m coverage report
+        run: tox -e py
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@master
         env:
