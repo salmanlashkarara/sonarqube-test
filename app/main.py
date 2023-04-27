@@ -24,3 +24,16 @@ def multitude(a, b):
 def power(a, b):
     return a ** b
 
+
+def sum_list(lst):
+    total = 0
+    for num in lst:
+        total += num
+    return total
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
