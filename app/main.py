@@ -3,3 +3,6 @@ def func(a):
         return 2 * a
     else:
         return a / 2
+
+
+print("func(3)= ", func(3))
