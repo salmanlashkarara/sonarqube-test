@@ -24,7 +24,7 @@ def multitude(a, b):
 def power(a, b):
     return a ** b
 
-
+"""
 def sum_list(lst):
     print("Hellllo")
     total = 0
@@ -38,3 +38,4 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
+"""
