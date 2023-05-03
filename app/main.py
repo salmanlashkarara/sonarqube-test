@@ -26,7 +26,7 @@ def power(a, b):
 
 
 def sum_list(lst):
-    print("Hellllo")
+    print("Hellllo    .....")
     total = 0
     for num in lst:
         total += num
